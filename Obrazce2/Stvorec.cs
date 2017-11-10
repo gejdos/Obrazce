@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Obrazce2
 {
-    sealed partial class Stvorec : Obrazec
+    sealed partial class Stvorec : Obrazec, IKreslenie
     {
         double strana;
 
@@ -17,7 +17,17 @@ namespace Obrazce2
 
         public override double VypocitajObsah()
         {
-            return strana * strana;
+            return Math.Pow(strana, 2);
+        }
+
+        public void Vykresli()
+        {
+            Console.WriteLine("Kreslim stvorec");
+        }
+
+        public void Vytlac()
+        {
+            Console.WriteLine("Tlacim stvorec");
         }
     }
 }
