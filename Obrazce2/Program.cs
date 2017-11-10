@@ -15,7 +15,7 @@ namespace Obrazce2
 
             Stvorec stvorec1 = new Stvorec(12.4);
             Console.WriteLine("Obsah stvorca: {0}\n", stvorec1.VypocitajObsah());
-            Stvorec stvorec2 = new Stvorec(12.4);
+            Stvorec stvorec2 = new Stvorec(4);
 
             Console.WriteLine(Stvorec.Porovnaj(stvorec1, stvorec2) + "\n");
 
@@ -30,7 +30,20 @@ namespace Obrazce2
             //IKreslenie k = new Stvorec(2.6);
             IKreslenie k = stvorec1;
             IKreslenie k1 = new Kruh(23.5);
-            
+
+            k.Vykresli();
+            k1.Vytlac();
+
+            Console.WriteLine(stvorec2.VypocitajObsah());
+            stvorec2.ZmenRozmer(2);
+            Console.WriteLine(stvorec2.VypocitajObsah());
+
+           // Console.WriteLine(novyKruh.VypocitajObsah());
+
+           // IZmenRozmer zmenaKruhu = new Kruh(2.5);
+
+            //zmenaKruhu.ZmenRozmer();
+
 
             Console.ReadKey();
 

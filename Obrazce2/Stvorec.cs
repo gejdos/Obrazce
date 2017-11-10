@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Obrazce2
 {
-    sealed partial class Stvorec : Obrazec, IKreslenie
+    sealed partial class Stvorec : Obrazec, IKreslenie, IZmenRozmer
     {
         double strana;
 
@@ -28,6 +28,13 @@ namespace Obrazce2
         public void Vytlac()
         {
             Console.WriteLine("Tlacim stvorec");
+        }
+
+
+        public void ZmenRozmer(double rozdiel)
+        {
+            strana = strana - rozdiel;
+
         }
     }
 }
