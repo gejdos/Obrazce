@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Kruh.cs" />
+    <Compile Include="NovyStvorec.cs" />
     <Compile Include="Obrazec.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
