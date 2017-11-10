@@ -8,5 +8,10 @@ namespace Obrazce2
 {
     partial class Stvorec
     {
+
+        public static bool Porovnaj(Stvorec stvorec1, Stvorec stvorec2)
+        {
+            return stvorec1.strana == stvorec2.strana;
+        }
     }
 }

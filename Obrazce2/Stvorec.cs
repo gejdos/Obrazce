@@ -17,7 +17,6 @@ namespace Obrazce2
 
         public override double VypocitajObsah()
         {
-
             return strana * strana;
         }
     }
