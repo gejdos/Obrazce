@@ -8,6 +8,11 @@ namespace Obrazce2
 {
     sealed class Kruh : Obrazec, IKreslenie, IZmenRozmer
     {
+        class PomocnyKruh
+        {
+
+        }
+
         double polomer;
 
         public Kruh(double polomer)
