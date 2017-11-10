@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Obrazce2
 {
-    partial class Stvorec : Obrazec
+    sealed partial class Stvorec : Obrazec
     {
         double strana;
 

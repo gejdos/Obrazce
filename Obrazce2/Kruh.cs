@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Obrazce2
 {
-    class Kruh : Obrazec
+    sealed class Kruh : Obrazec
     {
         double polomer;
 
