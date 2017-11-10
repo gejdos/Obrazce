@@ -18,7 +18,7 @@ namespace Obrazce2
 
         public override double VypocitajObsah()
         {
-            return Math.PI * polomer * polomer;
+            return Math.PI * Math.Pow(polomer, 2);
         }
     }
 }
