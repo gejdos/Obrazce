@@ -8,9 +8,8 @@ namespace Obrazce2
 {
     abstract class Obrazec
     {
-        public string Nazov;
+        //public string Nazov;
 
         public abstract double VypocitajObsah();
-
     }
 }

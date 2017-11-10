@@ -11,13 +11,12 @@ namespace Obrazce2
         static void Main(string[] args)
         {
             Obrazec kruh = new Kruh(1.5);
-            Console.WriteLine("Obsah kruhu je: {0}\n", kruh.VypocitajObsah());
+            Console.WriteLine("Obsah kruhu: {0}\n", kruh.VypocitajObsah());
 
             Obrazec stvorec = new Stvorec(12.4);
-            Console.WriteLine("Obsah stvorca je: {0}\n", stvorec.VypocitajObsah());
+            Console.WriteLine("Obsah stvorca: {0}\n", stvorec.VypocitajObsah());
 
             Console.ReadKey();
-
 
         }
     }
